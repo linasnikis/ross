@@ -9,7 +9,7 @@
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "Cargo Build (debug)",
             "runToMain": true,
-            "executable": "./target/thumbv7m-none-eabi/debug/ross-firmware",
+            "executable": "./target/thumbv7m-none-eabi/debug/ENTER_FIRMWARE_VARIETY_HERE",
             "device": "STM32F103CBT6",
             "configFiles": [
                 "interface/stlink.cfg",

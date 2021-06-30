@@ -13,3 +13,11 @@ panic-semihosting = "0.5.6"
 [dependencies.stm32f1xx-hal]
 version = "0.7.0"
 features = ["rt", "stm32f103", "medium"]
+
+[lib]
+name = "ross_firmware"
+path = "src/lib.rs"
+
+[[bin]]
+name = "ross-programmer-firmware"
+path = "src/ross-programmer/bin.rs"
