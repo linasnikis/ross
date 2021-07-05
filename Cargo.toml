@@ -10,10 +10,19 @@ cortex-m-rt = "0.6.14"
 cortex-m-semihosting = "0.3.7"
 alloc-cortex-m = "0.4.1"
 panic-itm = "0.4.2"
+bxcan = "0.4.0"
+nb = "1.0.0"
+eeprom24x = "0.3.0"
 
 [dependencies.stm32f1xx-hal]
-version = "0.7.0"
+git = "https://github.com/stm32-rs/stm32f1xx-hal"
 features = ["rt", "stm32f103", "medium"]
+
+[dependencies.ross-eeprom]
+git = "https://github.com/linasdev/ross-eeprom"
+
+[dependencies.ross-protocol]
+git = "https://github.com/linasdev/ross-protocol"
 
 [lib]
 name = "ross_firmware"
